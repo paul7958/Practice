@@ -3,8 +3,7 @@
 준비항목: 가상머신(virtual Box), 
                 운영체제(centOS), 
                 분석서버(Anaconda), 
-                터미널 연결 툴(putty), 
-                파일전송 툴(FileZilla)
+                터미널 연결 툴(putty)
 
 
 

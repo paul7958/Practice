@@ -3,8 +3,7 @@
 준비항목: 가상머신(virtual Box), 
                 운영체제(centOS), 
                 분석서버(Anaconda), 
-                터미널 연결 툴(putty), 
-                파일전송 툴(FileZilla)
+                터미널 연결 툴(putty)
 
 
 
@@ -32,10 +31,10 @@
 2) 사용자 생성
 
 ### 2-1. 계정 생성 (서버에 리눅스OS 설치 이후)
-1) su - root (root로 접속 해야 계정 생성 가능
+1) su - root (root로 접속 해야 계정 생성 가능)
 2) adduser '아이디'  (pydata)
 3) passwd '아이디'   (pydata)
-4 )비밀번호 설정
+4) 비밀번호 설정
 
 ### 2-2. 계정 생성한 곳에 sudo권한 부여
 1) su - root
@@ -43,8 +42,10 @@
 3) Allow root to run any commands anywhere 밑에
     root    ALL=(ALL)    ALL  밑에
     conda  ALL=(ALL)    ALL 입력  (권한을 부여할 아이디를 입력 후 ALL로 수행 가능한 명령어)
-   *(모든 명령어 Passwd 스킵하려면 NOPASSWD:ALL 해줘야 함 / 일부 명령어는 NOPASSWD:root/test.sh)
-   *(vi편집기에서 검색 기능은 '/' 후 검색할 키워드 ex. /Allow)
+    
+   !*(모든 명령어 Passwd 스킵하려면 NOPASSWD:ALL 해줘야 함 / 일부 명령어는 NOPASSWD:root/test.sh)
+   
+   !*(vi편집기에서 검색 기능은 '/' 후 검색할 키워드 ex. /Allow)
 
 ### 3-1. 서버 내 고정 IP 할당
 1) 해당 가상 머신 설정 -> 네트워크 -> 어탭터에 브리지의 MAC주소 확인
